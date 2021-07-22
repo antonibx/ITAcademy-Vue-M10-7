@@ -1,9 +1,14 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+<div>
+    <div id="nav">
+      <router-link to="/">Inici</router-link> |
+      <router-link to="/clients/1">Clients</router-link> |
+      <router-link to="/proveidors">Proveïdors</router-link> |
+      <router-link to="/magatzem">Magatzem</router-link> |
+      <router-link to="/botiga">Botiga</router-link>
+    </div>
+    <router-view/>
+</div>
 </template>
 
 <style>
